@@ -41,3 +41,10 @@ Se aprovecha a comparar dos procedimientos seguidos:
   
   
 ### Conclusiones: 
+
+Los resultados más interesantes se pueden ver con 50 o 100 clusters. 
+
+Al final de la notebook 'ClustersWiki.ipynb' que usa la matriz de frecuencias de palabras se pueden ver las palabras que caen en los 100 clusters. Si bien se consigue que palabras similares en cuanto a su funcionalidad (como por ejemplo, los días de la semana, las que describen números, los nombres de lugares, las profesiones) caigan en los mismos clusters, también se obtienen clusters que agrupan palabras relacionadas entre sí desde un aspecto más semántico y de tema del que se escribe (por ejemplo, palabras en inglés que escaparon en el preprocesado; otro con palabras que estarían en la temática 'guerra', palabras de geografía, de política, de música, palabras referentes a cargos de la realeza, palabras referentes al gobierno, palabras referentes al sistema educativo, al cine, a divisiones de la población, al deporte)
+https://github.com/florealonso/Words_Clustering/blob/master/coocurrencias%20cluster/ClustersWiki.ipynb
+
+En la notebook 'wikitriplas_n.ipynb' con los 100 clusters se puede observar que el uso de triplas de dependencia y morfología de las palabras hace que los clusters tengan más tendencia a contener palabras con la misma morfología, es decir, un cluster con verbos, otro con sustantivos, otro con adverbios, y así. https://github.com/florealonso/Words_Clustering/blob/master/cooc%20pos%20triplas%20cluster/wikitriplas_n.ipynb
